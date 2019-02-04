@@ -1,0 +1,15 @@
+cmd mysql -u root
+
+ex1. CREATE DATABASE `languages`;
+
+ex2. CREATE DATABASE `webDevelopment` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+ex3. CREATE DATABASE IF NOT EXISTS `frameworks` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+ex4. CREATE DATABASE IF NOT EXISTS `languages` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+ex5. DROP DATABASE `languages`;
+
+ex6. DROP DATABASE IF EXISTS `frameworks`;
+
+ex7. DROP DATABASE IF EXISTS `languages`;
